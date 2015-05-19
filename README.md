@@ -5,6 +5,7 @@
 	- brew install zsh zsh-completions
 3. Install oh+my+zsh
 	- curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+	- Set as default shell chsh -s /bin/zsh
 4. Edit ~/.zshrc and change the following
 	ZSH_THEME=pygmalion
     plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
